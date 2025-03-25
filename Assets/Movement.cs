@@ -11,12 +11,11 @@ public class Movement : MonoBehaviour
         
     }
     public Animator animator;
-   
-    public string runAnimation = "run";
+    public string animationName = "run"; // Set this in the Inspector
 
-    public void PlayRunAnimation()
+    public void PlayAnimation()
     {
-        animator.Play("run");
+        animator.Play(animationName);
     }
 
 
