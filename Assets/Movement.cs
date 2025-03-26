@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
- 
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
-    public Animator animator;
-    public string animationName = "run"; // Set this in the Inspector
+    
+    //public string animationName = "run"; // Set this in the Inspector
 
     public void PlayAnimation()
     {
-        animator.Play(animationName);
+        animator.SetBool("run", true);
+            //Play(animationName);
     }
 
 

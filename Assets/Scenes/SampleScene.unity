@@ -710,7 +710,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1249393207}
           m_TargetAssemblyTypeName: Movement, Assembly-CSharp
-          m_MethodName: PlayRunAnimation
+          m_MethodName: PlayAnimation
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -732,8 +732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 609447f208ede0b4db2b37df849ce065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  animationName: run
+  animator: {fileID: 1249393205}
 --- !u!95 &1457496485 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 62fd90280a702d94f80317a4d95a7cd5, type: 3}
@@ -749,27 +748,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1194083
+      value: 0.32627124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1194083
+      value: 0.32627124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1194083
+      value: 0.32627124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.264
+      value: 1.319
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0439
+      value: 0.046
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.475
+      value: 3.4902
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2317,15 +2316,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1194083
+      value: 0.32627124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1194083
+      value: 0.32627124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1194083
+      value: 0.32627124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9b954489f0d35842ba4058aa12d382b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2400,7 +2399,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  animationName: run
 --- !u!114 &2082852766
 MonoBehaviour:
   m_ObjectHideFlags: 0
