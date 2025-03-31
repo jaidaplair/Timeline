@@ -10,3 +10,5 @@
 //https://www.mixamo.com/#/?page=1&query=remy&type=Character
 //background music
 //https://freesound.org/people/mderr/sounds/403184/
+//animations
+//https://www.mixamo.com/#/?page=1&query=&type=Motion%2CMotionPack
